@@ -5,4 +5,7 @@ object ValuesVariablesTypes extends App {
   println(x)
 
   val someString: String = "Oi"
+
+  val someFloat: Float = 2.0f
+  val someDouble: Double = 2.0
 }
