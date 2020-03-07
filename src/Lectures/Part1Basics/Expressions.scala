@@ -8,10 +8,8 @@ object Expressions extends App {
   println(if(aCondition) 5 else 3)
 
   var aVariable: Int = 1
-  val aUnitType: Unit = {
-    aVariable = 3
-  } // Unit===Void
-  println(aUnitType)
+  //val aUnitType: Unit = (aVariable = 3)  // Unit===Void
+  //println(aUnitType)
 
   // side effects: println(), whiles, reassigns
 
